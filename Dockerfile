@@ -1,4 +1,4 @@
-FROM nginx:1.7
+FROM nginx
 
 #Install Curl
 RUN apt-get update -qq && apt-get -y install curl
